@@ -9,7 +9,9 @@
       <div class="col-lg-9">
         $Layout
       </div>
-      <% include Sidebar %>
+      <% if not $HideSidebar %>
+        <% include Sidebar %>
+      <% end_if %>
     </div>
   </div>
 </main>
