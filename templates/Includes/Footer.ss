@@ -7,7 +7,7 @@
           <i class="fa fa-chevron-right"></i>
           <nav class="footer">
             <ul>
-              <% loop $Menu(1) %>
+              <% loop $ShowInFooterMenuItems %>
                 <li class="$LinkingMode"><a href="$Link" title="$Title.XML">$MenuTitle.XML</a></li>
               <% end_loop %>
             </ul>
