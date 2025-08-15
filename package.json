@@ -34,7 +34,7 @@
   },
   "dependencies": {
     "jquery": "^3.2.1",
-    "popper.js": "^1.12.7"
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.6",
