@@ -16,5 +16,5 @@
 </div>
 
 <hr />
-<p class="event-calendar-feed"><a href="$Link(rss)"><% _t('UncleCheese\EventCalendar\Pages\Calendar.SUBSCRIBE', 'Calendar RSS Feed') %></a></p>
+<p class="event-calendar-feed"><a href="$Link(rss)"><%t UncleCheese\EventCalendar\Pages\Calendar.SUBSCRIBE 'Calendar RSS Feed' %></a></p>
 <% end_if %>
