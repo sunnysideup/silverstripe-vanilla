@@ -9,7 +9,7 @@ a {color: #dc3d24;}
 
 /* ### header */
 body > header:first-child  {
-  background-color: #72190b;
+  background-image: url('../images/bg.gif');
 }
 body > header:first-child .navbar-brand {
   background-image: url('../images/logo.png');
@@ -37,7 +37,7 @@ main {
 /* ### main */
 .website-title {
   font-size: calc(0.4rem + 1.5vw);
-  background-color: #dc3d24;
+  background-color: #72190b;
   text-align: left;
   margin-bottom: 0rem;
   margin-top: -1.9rem;
