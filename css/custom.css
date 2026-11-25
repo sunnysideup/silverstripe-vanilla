@@ -91,6 +91,8 @@ aside li {
 .sharethis i {font-size: 1.7rem; margin: 0 0.3rem; }
 .sharethis i:hover {color: #72190b;}
 .sharethis .login-buttons {margin-top: 0; margin-bottom: 0.5rem;}
+.sharethis.follow-us {padding-bottom: 2rem;}
+.sharethis.follow-us .login-buttons .btn {margin-top: 0;}
 
 .event-calendar-events-list ul,
 .event-calendar-events-list li {

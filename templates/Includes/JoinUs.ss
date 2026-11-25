@@ -1,4 +1,4 @@
-<div class="sharethis">
+<div class="sharethis follow-us">
   <hr />
   <h3>FOLLOW US</h3>
 
