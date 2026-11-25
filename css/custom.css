@@ -4,7 +4,8 @@ body {
   overflow-x: hidden;
 }
 
-a {color: #dc3d24;}
+a {color: #72190b;}
+a:hover {color: #430f07;}
 
 
 /* ### header */
@@ -88,7 +89,7 @@ aside li {
 /* ### footer */
 .sharethis  {margin-top: 2rem;}
 .sharethis i {font-size: 1.7rem; margin: 0 0.3rem; }
-.sharethis i:hover {color: #dc3d24;}
+.sharethis i:hover {color: #72190b;}
 .sharethis .login-buttons {margin-top: 0; margin-bottom: 0.5rem;}
 
 .event-calendar-events-list ul,
@@ -227,8 +228,13 @@ main .col-md-9 {
 .btn-primary,
 .btn-primary
  {
-  background-color: #dc3d24!important;
-  border-color: #dc3d24!important;
+  background-color: #72190b!important;
+  border-color: #72190b!important;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #430f07!important;
+  border-color: #430f07!important;
 }
 
 .searchEnginePageInfo a:link,
@@ -240,7 +246,7 @@ main .col-md-9 {
 }
 
 .searchEnginePageInfo a.current {
-  color: #dc3d24;
+  color: #72190b;
 }
 
 form .message.required {
