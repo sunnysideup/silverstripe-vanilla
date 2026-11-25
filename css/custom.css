@@ -9,7 +9,7 @@ a {color: #dc3d24;}
 
 /* ### header */
 body > header:first-child  {
-  background-image: url('../images/bg.gif');
+  background-color: #72190b;
 }
 body > header:first-child .navbar-brand {
   background-image: url('../images/logo.png');
@@ -89,6 +89,7 @@ aside li {
 .sharethis  {margin-top: 2rem;}
 .sharethis i {font-size: 1.7rem; margin: 0 0.3rem; }
 .sharethis i:hover {color: #dc3d24;}
+.sharethis .login-buttons {margin-top: 0; margin-bottom: 0.5rem;}
 
 .event-calendar-events-list ul,
 .event-calendar-events-list li {
@@ -116,6 +117,12 @@ aside li {
 .event-calendar-month-jumper .fields {width: 80%!important; float: left;}
 .event-calendar-month-jumper .field.dropdown {width: calc(50% - 10px)!important; float: left; margin-right: 10px; }
 .event-calendar-month-jumper .actions {width: 19%!important; display: inline-block;}
+.event-calendar-month-jumper-reset {margin-top: 0.5rem;}
+.event-calendar-controls {margin-top: 1.5rem;}
+.event-calendar-regions {margin-bottom: 0;}
+.event-calendar-regions li + li {margin-top: 0.4rem;}
+.event-calendar-regions a {display: inline-block; padding: 0.1rem 0.5rem; border-radius: 10px;}
+.event-calendar-regions li.current a {background-color: #72190b; color: #fff;}
 .event-calendar-feed {font-size: 0.7rem; clear: both;}
 
 .blog-post-meta {

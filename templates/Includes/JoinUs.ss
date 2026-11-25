@@ -2,6 +2,10 @@
   <hr />
   <h3>FOLLOW US</h3>
 
+  <p class="login-buttons">
+    <a href="$JoinUsLink" class="btn btn-secondary" role="button">Sign-up to Newsletter</a>
+  </p>
+
   <% with Siteconfig %>
   <p>
     <% if $FacebookLink %><a href="$FacebookLink" ><i class="fa-brands fa-facebook"></i></a><% end_if %>
@@ -12,7 +16,4 @@
     <% if $VimeoLink %><a href="$VimeoLink" ><i class="fa-brands fa-vimeo"></i></a><% end_if %>
   </p>
   <% end_with %>
-  <p class="login-buttons">
-    <a href="$JoinUsLink" class="btn btn-secondary" role="button">Sign-up to Newsletter</a>
-  </p>
 </div>
