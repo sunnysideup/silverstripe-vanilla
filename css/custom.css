@@ -316,3 +316,30 @@ form .message.required {
 .userform .userform-fields .field label {
   margin-bottom: 0.35rem;
 }
+
+
+/* ### heading spacing */
+main h1,
+main h2,
+main h3,
+main h4,
+main h5,
+main h6 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+main h1:first-child,
+main h2:first-child,
+main h3:first-child,
+main h4:first-child,
+main h5:first-child,
+main h6:first-child,
+main header > h1 {
+  margin-top: 0;
+}
+
+
+/* ### form messages */
+form span.message {
+  display: block;
+}
