@@ -48,6 +48,15 @@ main {
   border-radius: 0.5rem 0.5rem 0 0;
   line-height: 1.3;
 }
+@media (max-width: 991.98px) {
+  .website-title {
+    margin-top: 0;
+    border-radius: 0.5rem;
+  }
+  .breadcrumb-holder {
+    display: none;
+  }
+}
 .website-title span {
   display: block;
   font-size: calc(0.5rem + 0.47vw);
@@ -66,9 +75,32 @@ main {
   padding-bottom: 2rem;
 }
 aside.sidebar {
-  background-color: #e9ecef;
-  padding: 1.5rem;
+  position: relative;
+  z-index: 0;
+  padding: 1.5rem calc(15px + 1.5rem);
+}
+aside.sidebar::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 15px;
+  right: 15px;
+  z-index: -1;
+  background-color: #f4f6f7;
   border-radius: 1.5rem;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.08), 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+@media (min-width: 992px) {
+  .content-outer > .col-lg-9 {
+    flex: 0 0 70%;
+    max-width: 70%;
+  }
+  aside.sidebar {
+    flex: 0 0 30%;
+    max-width: 30%;
+  }
 }
 aside .login-buttons {
   text-align: left;
@@ -216,6 +248,18 @@ main .col-md-9 {
   top: 0;
   right: 0;
 }
+#SearchEngineBasicForm_SearchEngineBasicForm .form-control,
+#SearchEngineBasicForm_SearchEngineBasicForm .actions .btn {
+  box-sizing: border-box;
+  height: 2.5rem;
+  line-height: 1.5;
+  padding-top: 0;
+  padding-bottom: 0;
+  margin: 0;
+}
+#SearchEngineBasicForm_SearchEngineBasicForm .actions {
+  display: flex;
+}
 
 .dealertitle {
   padding-top: 3rem;
@@ -262,4 +306,13 @@ main .col-md-9 {
 form .message.required {
   background-color: rebeccapurple;
   color: wheat;
+}
+
+
+/* ### contact form */
+.userform .userform-fields .field:not(.userformsstep) {
+  margin-bottom: 1.25rem;
+}
+.userform .userform-fields .field label {
+  margin-bottom: 0.35rem;
 }
