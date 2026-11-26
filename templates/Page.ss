@@ -4,7 +4,7 @@
   <head>
     $ExtendedMetatags
     <% require themedCSS('production/styles/bundle') %>
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
     <script async src=https://www.googletagmanager.com/gtag/js?id=G-RNQZLSEB0X></script>
     <script>
 window.dataLayer = window.dataLayer || []

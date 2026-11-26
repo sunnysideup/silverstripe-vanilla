@@ -5,7 +5,7 @@ body {
 }
 
 a {color: #72190b;}
-a:hover {color: #430f07;}
+a:hover {color: #ed1c24;}
 
 
 /* ### header */
@@ -27,7 +27,7 @@ body > header:first-child .navbar-brand {
   color: #dc3d24;
 }
 .navbar-dark .navbar-nav .nav-link:hover  {
-  color: #fff;
+  color: #ed1c24;
 }
 main {
   min-height: calc(100vh - 200px);
@@ -38,7 +38,7 @@ main {
 /* ### main */
 .website-title {
   font-size: calc(0.4rem + 1.5vw);
-  background-color: #72190b;
+  background-color: #ed1c24;
   text-align: left;
   margin-bottom: 0rem;
   margin-top: -1.9rem;
@@ -129,7 +129,7 @@ aside li {
 /* ### footer */
 .sharethis  {margin-top: 2rem;}
 .sharethis i {font-size: 1.7rem; margin: 0 0.3rem; }
-.sharethis i:hover {color: #72190b;}
+.sharethis i:hover {color: #ed1c24;}
 .sharethis .login-buttons {margin-top: 0; margin-bottom: 0.5rem;}
 .sharethis.follow-us {padding-bottom: 2rem;}
 .sharethis.follow-us .login-buttons .btn {margin-top: 0;}
@@ -287,8 +287,8 @@ main .col-md-9 {
 }
 .btn-primary:hover,
 .btn-primary:focus {
-  background-color: #430f07!important;
-  border-color: #430f07!important;
+  background-color: #ed1c24!important;
+  border-color: #ed1c24!important;
 }
 
 .searchEnginePageInfo a:link,
@@ -342,4 +342,13 @@ main header > h1 {
 /* ### form messages */
 form span.message {
   display: block;
+}
+
+
+/* ### secondary button hover */
+.btn-secondary:hover,
+.btn-secondary:focus {
+  background-color: #ed1c24;
+  border-color: #ed1c24;
+  color: #fff;
 }
