@@ -62,6 +62,14 @@ main {
 
 
 /* ### side bar */
+.content-outer {
+  padding-bottom: 2rem;
+}
+aside.sidebar {
+  background-color: #e9ecef;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+}
 aside .login-buttons {
   text-align: left;
   padding: 0;
