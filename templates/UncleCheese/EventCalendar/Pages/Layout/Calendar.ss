@@ -8,5 +8,5 @@ $Content
 		<% include UncleCheese\EventCalendar\Includes\EventList %>
 	</div>
 <% else %>
-	<p><% _t('UncleCheese\EventCalendar\Pages\Calendar.NOEVENTS','There are no events') %>.</p>
+	<p><%t UncleCheese\EventCalendar\Pages\Calendar.NOEVENTS 'There are no events' %>.</p>
 <% end_if %>

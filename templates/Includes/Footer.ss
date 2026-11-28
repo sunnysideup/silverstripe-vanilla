@@ -1,7 +1,7 @@
 <footer>
   <div class="container">
     <div class="row">
-      <div class="col-md">
+      <div class="col-md-7">
         <div class="footer-links d-flex flex-column align-items-center align-items-lg-stretch justify-content-lg-start flex-lg-row">
           <a class="home-link" href="$BaseHref">$SiteConfig.Title</a>
           <i class="fa fa-chevron-right"></i>
@@ -14,7 +14,7 @@
           </nav>
         </div>
       </div>
-      <div class="col-md">
+      <div class="col-md-5">
        <% if $SiteConfig.FooterAuthorisation %>
           <div class="d-flex flex-column align-items-center align-items-lg-stretch justify-content-lg-end flex-lg-row">
             <div class="authorisation">$SiteConfig.FooterAuthorisation</div>

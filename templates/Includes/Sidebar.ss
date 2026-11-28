@@ -15,7 +15,6 @@
 
   <% include UncleCheese\EventCalendar\Includes\CalendarNav %>
 
-  <% include ShareThis %>
   <% include JoinUs %>
 
   <h3>Editors</h3>
